@@ -51,14 +51,14 @@
         android:layout_alignParentBottom="true"
         >
 
-        <douzifly.list.widget.ColorPicker
+        <bluerocket.mobi.widget.ColorPicker
             android:id="@+id/color_picker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             >
 
-        </douzifly.list.widget.ColorPicker>
+        </bluerocket.mobi.widget.ColorPicker>
 
         <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/fab_add_reminder"

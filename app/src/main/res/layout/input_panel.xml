@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<douzifly.list.widget.InputPanel
+<bluerocket.mobi.widget.InputPanel
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -57,7 +57,7 @@
             android:visibility="gone"
             />
 
-        <douzifly.list.widget.ColorPicker
+        <bluerocket.mobi.widget.ColorPicker
             android:id="@+id/color_picker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
             android:layout_marginLeft="12dp"
             >
 
-        </douzifly.list.widget.ColorPicker>
+        </bluerocket.mobi.widget.ColorPicker>
 
 
 
@@ -120,4 +120,4 @@
 
 
     </RelativeLayout>
-</douzifly.list.widget.InputPanel>
+</bluerocket.mobi.widget.InputPanel>

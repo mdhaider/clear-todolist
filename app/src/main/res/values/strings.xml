@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Clear List</string>
-    <string name="default_list">Clear List</string>
+    <string name="app_name">Bucket Note</string>
+    <string name="default_list">Bucket Note</string>
     <string name="cant_remove">Can not remove default group</string>
     <string name="groups">Groups</string>
     <string name="today">Today</string>
@@ -13,7 +13,7 @@
     <string name="version">Version</string>
     <string name="reminder">Reminder</string>
     <string name="edit_group">Edit Group</string>
-    <string name="default_group_title">Default</string>
+    <string name="default_group_title">Bucket Note</string>
     <string name="setting_backup">Backup &amp; Restore</string>
     <string name="backup">Backup</string>
     <string name="restore">Restore</string>
@@ -36,7 +36,7 @@
     <string name="day_diff">%d days ago</string>
 
     <string name="permission_rationable_title">Require Permission</string>
-    <string name="permission_rationable_text">Clear List will save your backup data on sdcard, Please grant the permission</string>
+    <string name="permission_rationable_text">Bucket Note will save your backup data on sdcard, Please grant the permission</string>
 
     <string name="font_size_title">Font size</string>
     <string name="font_size_small">Small</string>

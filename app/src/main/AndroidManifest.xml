@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="douzifly.list"
+<manifest package="bluerocket.mobi"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".ListApplication"
+        android:name="bluerocket.mobi.ListApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
 
 
         <activity
-            android:name=".ui.home.MainActivity"
+            android:name="bluerocket.mobi.ui.home.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >
@@ -29,7 +29,7 @@
         </activity>
 
         <activity
-            android:name=".ui.home.GroupEditorActivity"
+            android:name="bluerocket.mobi.ui.home.GroupEditorActivity"
             android:screenOrientation="portrait"
             android:theme="@style/BoxEditorDialog"
             >
@@ -37,20 +37,20 @@
         </activity>
 
         <activity
-            android:name=".ui.home.SettingActivity"
+            android:name="bluerocket.mobi.ui.home.SettingActivity"
             android:screenOrientation="portrait"
             >
 
         </activity>
 
         <activity
-            android:name=".ui.home.DetailActivity"
+            android:name="bluerocket.mobi.ui.home.DetailActivity"
             android:screenOrientation="portrait"
             >
 
         </activity>
 
-        <receiver android:name=".alarm.AlarmReceiver">
+        <receiver android:name="bluerocket.mobi.alarm.AlarmReceiver">
             <intent-filter>
                 <action android:name="ClearAlarmPro" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

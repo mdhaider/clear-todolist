@@ -47,7 +47,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:text="Beckysoft 2015"
+        android:text="Blue Rocket Mobile Solutions 2017"
         android:textColor="@color/greyPrimary"
         android:textSize="@dimen/txt_size_small"
         />
@@ -173,7 +173,7 @@
         android:paddingBottom="8dp"
         />
 
-    <douzifly.list.widget.FontSizeBar
+    <bluerocket.mobi.widget.FontSizeBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txt_font_size_title"

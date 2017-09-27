@@ -62,7 +62,7 @@
                 android:paddingRight="12dp"
                 android:paddingTop="12dp">
 
-                <douzifly.list.widget.DotView
+                <bluerocket.mobi.widget.DotView
                     android:id="@+id/dot_view"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
